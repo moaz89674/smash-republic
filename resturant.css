@@ -313,17 +313,16 @@ footer {
   }
   nav {
     height: 125px;
-    padding: 5px;
+    padding: 10px 30px;
   }
   .a_nav {
     font-size: small;
     padding: 5px;
   }
   ul {
-    width: 50%;
+    width: fit-content;
     height: 100%;
     flex-direction: column;
-    justify-content: space-around;
   }
 
   .steps_article {
@@ -335,7 +334,7 @@ footer {
     gap: 20px;
   }
   .burger_img {
-    width: 175px;
+    width: 250px;
   }
   .order_link {
     padding: 10px;
