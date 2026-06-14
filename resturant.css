@@ -1,0 +1,301 @@
+@font-face {
+  font-family: "luckiest_guy";
+  src: url(LuckiestGuy-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+}
+header {
+  background-color: #1a0000;
+  width: 100%;
+  padding-top: 150px;
+}
+
+nav {
+  width: 90%;
+  padding: 15px;
+  background-image: linear-gradient(45deg, #c11212, #8b0000);
+  border-radius: 10px;
+  position: fixed;
+  top: 10px;
+  left: 5%;
+  box-shadow:
+    2px 2px 5px 0 #fff inset,
+    -3px -3px 10px 0 #000 inset,
+    1px 1px 3px 0 #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+ul {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+
+  list-style: none;
+}
+.a_nav {
+  color: #fff;
+  font-family: "luckiest_guy";
+  font-size: x-large;
+  padding: 10px;
+  transition: 0.3s;
+  border-radius: 10px;
+  text-decoration: none;
+  border: #fff 1px solid;
+}
+
+.a_nav:hover {
+  background-color: rgba(211, 211, 211, 0.377);
+  color: black;
+}
+.logo_nav {
+  width: 85px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_sec {
+  width: 100%;
+  background-image: radial-gradient(#8b0000, #4a0000, #1a0000 75%);
+  padding: 20px;
+}
+
+.hero_div {
+  background-color: #5c02026b;
+  width: 90%;
+  padding: 30px 10px 10px 10px;
+  border: solid white 2px;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo_div {
+  width: fit-content;
+  margin-left: 15px;
+}
+
+.order_link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(315deg, darkred, brown, #c1121d);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow:
+    2px 2px 1px 0 white inset,
+    -1px -1px 1px 0 #000 inset,
+    1px 1px 3px 0 #000;
+  text-transform: uppercase;
+  font-size: x-large;
+  transition: 0.5s;
+}
+
+.order_link:hover,
+.kinds_a:hover,
+.drinks_a:hover,
+.burger_img:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.order_div {
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+}
+
+.burger_div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.burger_img {
+  width: 500px;
+  transition: 0.5s;
+}
+
+.logo {
+  width: 150px;
+}
+
+.steps_sec {
+  padding: 20px;
+  background-image: linear-gradient(#1a0000, #4a0000, #8b0000);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 70px;
+  font-family: "luckiest_guy";
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #c1121d;
+  letter-spacing: 1px;
+}
+
+.steps_article {
+  width: 23%;
+  padding: 20px;
+  border: white 2px solid;
+  border-radius: 20px;
+  transition: 0.5s;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps_article:hover {
+  transform: translatey(-10px) scale(1.03);
+}
+
+.steps_img {
+  width: 170px;
+  border-radius: 20px;
+}
+
+.h3_steps {
+  color: white;
+  margin: 5px;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  text-shadow: #000 1px 1px 2px;
+}
+
+.steps_pragraph {
+  color: white;
+  line-height: 30px;
+  font-size: large;
+}
+.h2_kinds,
+.h2_drinks,
+.h2_steps {
+  background-color: #8b0000;
+  width: 100%;
+  text-align: center;
+  font-family: "luckiest_guy";
+  font-size: 40px;
+  color: antiquewhite;
+  padding: 40px;
+}
+.kinds_section,
+.drinks_section {
+  width: 100%;
+  padding: 10px;
+  background-image: linear-gradient(#8b0000, #4a0000);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.kinds_a,
+.drinks_a {
+  display: block;
+  width: fit-content;
+  background-color: #0000004f;
+  border: white 2px solid;
+  padding: 25px;
+  margin: 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  position: relative;
+}
+
+.kinds_imgs,
+.drinks_imgs {
+  width: 300px;
+  margin: 20px;
+}
+.kinds_p,
+.drinks_p {
+  font-family: "luckiest_guy";
+  color: beige;
+  font-size: large;
+  padding: 5px;
+}
+.h2_drinks {
+  background-color: #4a0000;
+}
+.drinks_section {
+  background-image: linear-gradient(#4a0000, #1a0000);
+}
+.h2_steps {
+  background-color: #1a0000;
+}
+footer {
+  background-image: linear-gradient(#1a0000, #000);
+  padding: 40px 20px 20px 20px;
+  color: #fff;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.column {
+  width: 2px;
+  height: 200px;
+  background-color: #fff;
+}
+.working_hours {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rights {
+  text-align: center;
+}
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  .burger_img {
+    width: 300px;
+  }
+  h1 {
+    font-size: 65px;
+  }
+  .steps_article {
+    width: 45%;
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .burger_img {
+    width: 220px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  .a_nav {
+    font-size: large;
+  }
+  .steps_article {
+    width: 70%;
+    margin: 15px;
+  }
+}
