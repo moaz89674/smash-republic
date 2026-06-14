@@ -321,12 +321,12 @@ footer {
   }
   .a_nav {
     font-size: small;
-    padding: 5px;
+    padding: 8px;
   }
   ul {
     width: fit-content;
     height: 100%;
-    gap: 3px;
+    gap: 5px;
     align-items: center;
   }
 
